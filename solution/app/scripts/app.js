@@ -20,13 +20,17 @@
           templateUrl: 'views/tweetsOverview.html',
           controller: 'TweetsOverviewController'
         })
+        .when('/tweetDetail/:id',{
+          templateUrl:'views/tweetDetail.html',
+          controller:'TweetDetailController'
+        })
         .when('/about', {
           templateUrl: 'views/about.html',
-          controller: 'AboutCtrl'
+          controller: 'AboutController'
         })
         .when('/contact',{
           templateUrl: 'views/contact.html',
-          controller: 'ContactCtrl'
+          controller: 'ContactController'
         })
         .otherwise({
           redirectTo: '/'
