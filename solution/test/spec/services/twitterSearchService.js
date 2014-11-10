@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: twitterSearchService', function () {
+describe('Service: TwitterSearchService', function () {
 
   // load the service's module
   beforeEach(module('solutionApp'));
 
   // instantiate service
-  var twitterSearchService;
-  beforeEach(inject(function (_twitterSearchService_) {
-    twitterSearchService = _twitterSearchService_;
+  var TwitterSearchService;
+  beforeEach(inject(function (_TwitterSearchService_) {
+    TwitterSearchService = _TwitterSearchService_;
   }));
 
   it('should do something', function () {
-    expect(!!twitterSearchService).toBe(true);
+    expect(!!TwitterSearchService).toBe(true);
   });
 
 });
