@@ -41,7 +41,6 @@ bower_components
 # Grunt
 dist
 .tmp
-.travis.yml
 
 # Other
 .checkstyle
