@@ -3,6 +3,7 @@
 describe('Controller: TweetDetailController', function () {
 
   // load the controller's module
+  beforeEach(module('solutionApp'));
   beforeEach(module('tweets'));
 
   var TweetDetailController,

@@ -9,5 +9,11 @@
    *
    * Contact module of the application.
    */
-  angular.module('contact', [])
+  angular.module('contact', []).config(function ($routeProvider) {
+    $routeProvider
+      .when('/contact', {
+        templateUrl: 'views/contact/contact.html',
+        controller: 'ContactController'
+      })
+  });
 })();

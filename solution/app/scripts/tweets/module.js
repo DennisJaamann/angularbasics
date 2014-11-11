@@ -9,5 +9,18 @@
    *
    * Tweets module of the application.
    */
-  angular.module('tweets', [])
+  angular.module('tweets', []).config(function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: 'views/tweets/tweetsOverview.html',
+        controller: 'TweetsOverviewController'
+      })
+      .when('/tweetDetail/:id',{
+        templateUrl:'views/tweets/tweetDetail.html',
+        controller:'TweetDetailController'
+      })
+      .otherwise({
+        redirectTo: '/'
+      });
+  });
 })();

@@ -3,7 +3,7 @@
 describe('Controller: ContactController', function () {
 
   // load the controller's module
-  beforeEach(module('contact'));
+  beforeEach(module('solutionApp'));
 
   var ContactController,
     scope;

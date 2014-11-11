@@ -10,4 +10,11 @@
    * About module of the application.
    */
   angular.module('about', [])
+    .config(function ($routeProvider) {
+      $routeProvider
+        .when('/about', {
+          templateUrl: 'views/about/about.html',
+          controller: 'AboutController'
+        });
+    });
 })();
