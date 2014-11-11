@@ -9,8 +9,6 @@
           var activeClass = "active";
           var path = element[0].firstChild.attributes[0].value.substring(1); //remove the hash mark
 
-          scope.location = location;
-
           scope.$on('$routeChangeSuccess',function(event,next){
             if (next.$$route.originalPath === path) {
               element.addClass(activeClass);
