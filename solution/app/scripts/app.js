@@ -12,7 +12,8 @@
   angular
     .module('solutionApp', [
       'ngResource',
-      'ngRoute'
+      'ngRoute',
+      'common'
     ])
     .config(function ($routeProvider) {
       $routeProvider
