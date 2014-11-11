@@ -9,7 +9,7 @@
    *
    * About module of the application.
    */
-  angular.module('about', [])
+  angular.module('about',[])
     .config(function ($routeProvider) {
       $routeProvider
         .when('/about', {

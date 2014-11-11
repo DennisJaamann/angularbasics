@@ -1,7 +1,7 @@
 (function () {
   'use strict'
 
-  angular.module('common', []).
+  angular.module('common').
     directive('navigationLinkDirective', ['$location', function (location) {
       return {
         restrict: 'A',

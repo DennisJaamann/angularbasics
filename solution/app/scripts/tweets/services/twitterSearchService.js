@@ -12,7 +12,7 @@
     .service('TwitterSearchService', function twitterSearchService($log,$resource) {
       // AngularJS will instantiate a singleton by calling "new" on this function
 
-      var twitterSearchResource = $resource('https://twitter.com/search?q=:searchTerm');
+      var twitterSearchResource = $resource('https://twitter.com/search?q=:searchTerm',{ searchTerm: '@searchTerm'}, {});
 
       this.searchTweets = function (searchTerm) {
         $log.log('Fetching all tweets for ' + searchTerm);
@@ -20,7 +20,7 @@
       };
 
       this.searchTweetById = function (id){
-
+        $log.log('Fetching tweet by tweet id ' + id);
       };
 
     });
