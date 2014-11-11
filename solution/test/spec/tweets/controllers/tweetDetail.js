@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: ContactController', function () {
+describe('Controller: TweetDetailController', function () {
 
   // load the controller's module
-  beforeEach(module('solutionApp'));
+  beforeEach(module('tweets'));
 
-  var ContactController,
+  var TweetDetailController,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    ContactController = $controller('ContactController', {
+    TweetDetailController = $controller('TweetDetailController', {
       $scope: scope
     });
   }));

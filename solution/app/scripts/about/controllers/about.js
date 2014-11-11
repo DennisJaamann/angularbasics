@@ -3,12 +3,12 @@
 
   /**
    * @ngdoc function
-   * @name solutionApp.controller:AboutController
+   * @name aboutModule.controllers:AboutController
    * @description
    * # AboutController
-   * Controller of the solutionApp
+   * Controller of the about module
    */
-  angular.module('solutionApp')
+  angular.module('about')
     .controller('AboutController', function ($scope) {
       $scope.awesomeThings = [
         'HTML5 Boilerplate',

@@ -13,24 +13,27 @@
     .module('solutionApp', [
       'ngResource',
       'ngRoute',
-      'common'
+      'common',
+      'tweets',
+      'about',
+      'contact'
     ])
     .config(function ($routeProvider) {
       $routeProvider
         .when('/', {
-          templateUrl: 'views/tweetsOverview.html',
+          templateUrl: '../views/tweets/tweetsOverview.html',
           controller: 'TweetsOverviewController'
         })
         .when('/tweetDetail/:id',{
-          templateUrl:'views/tweetDetail.html',
+          templateUrl:'../views/tweets/tweetDetail.html',
           controller:'TweetDetailController'
         })
         .when('/about', {
-          templateUrl: 'views/about.html',
+          templateUrl: 'views/about/about.html',
           controller: 'AboutController'
         })
         .when('/contact',{
-          templateUrl: 'views/contact.html',
+          templateUrl: '../views/contact/contact.html',
           controller: 'ContactController'
         })
         .otherwise({

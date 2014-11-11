@@ -9,5 +9,5 @@
    *
    * Contact module of the application.
    */
-  angular.module('common', [])
+  angular.module('contact', [])
 })();

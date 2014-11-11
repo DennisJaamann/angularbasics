@@ -3,12 +3,12 @@
 
   /**
    * @ngdoc service
-   * @name angularbasicsApp.TwitterSearchService
+   * @name tweetsModule.services.TwitterSearchService
    * @description
    * # TwitterSearchService
-   * Service in the angularbasicsApp.
+   * Service in the tweets module.
    */
-  angular.module('solutionApp')
+  angular.module('tweets')
     .service('TwitterSearchService', function twitterSearchService($log,$resource) {
       // AngularJS will instantiate a singleton by calling "new" on this function
 

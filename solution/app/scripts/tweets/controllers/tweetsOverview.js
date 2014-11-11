@@ -3,12 +3,12 @@
 
   /**
    * @ngdoc function
-   * @name solutionApp.controller:TweetsOverviewController
+   * @name tweetsModule.controllers:TweetsOverviewController
    * @description
    * # TweetsOverviewController
-   * Controller of the solutionApp
+   * Controller of the tweets module
    */
-  angular.module('solutionApp')
+  angular.module('tweets')
     .controller('TweetsOverviewController', function ($scope,$log, TwitterSearchService) {
       $scope.tweets = TwitterSearchService.searchTweets('Ordina Belgium');
 
