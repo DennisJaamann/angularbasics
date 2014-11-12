@@ -9,11 +9,11 @@
    * Controller of the contact module
    */
   angular.module('contact')
-    .controller('ContactController', function ($scope) {
-      $scope.awesomeThings = [
-        'HTML5 Boilerplate',
-        'AngularJS',
-        'Karma'
-      ];
+    .controller('ContactController', function ($scope, ContactService) {
+      var fetchContactSuccessHandler = function (result) {
+        $scope.contact = result;
+      };
+
+      ContactService.fetchContact().then(fetchContactSuccessHandler);
     });
 })();

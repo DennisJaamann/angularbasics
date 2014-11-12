@@ -9,16 +9,16 @@
    * Service in the about module.
    */
   angular.module('about')
-    .service('AboutService', function aboutService($q,$log) {
+    .service('AboutService', function aboutService($q, $log) {
       // AngularJS will instantiate a singleton by calling "new" on this function
-      var title='Some about stuff';
+      var title = 'Some about stuff';
       var content = 'Wow such stuff, much stuffness';
 
-      this.fetchAbout=function(){
+      this.fetchAbout = function () {
         $log.log('Fetching about');
         var deferred = $q.defer();
-        deferred.resolve({title:title,content:content});
+        deferred.resolve({title: title, content: content});
         return deferred.promise;
-      }
+      };
     });
 })();

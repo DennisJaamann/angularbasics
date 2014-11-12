@@ -17,5 +17,5 @@
       'tweets',
       'about',
       'contact'
-    ])
+    ]);
 })();

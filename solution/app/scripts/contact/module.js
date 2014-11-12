@@ -14,6 +14,6 @@
       .when('/contact', {
         templateUrl: 'views/contact/contact.html',
         controller: 'ContactController'
-      })
+      });
   });
 })();
