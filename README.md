@@ -74,3 +74,37 @@ Open up a cmd or terminal and navigate to your project root
 Run following command:
 
 <code>npm install imagemin-gifsicle imagemin-jpegtran imagemin-optipng imagemin-pngquant</code>
+
+### Bower (Optional)
+
+In some environments, typically behind a proxy the bower install step might fail.
+This also fails mostly on windows systems.
+
+1. At the root of your project, create a folder
+
+<code>
+mkdir bower_components
+</code>
+
+2. Set the proxy
+
+<code>
+</code>
+
+3. Run bower install to install components
+
+Open a cmd or terminal and type the following command where your bower.json file is located:
+
+<code>
+bower install
+</code>
+
+### Start grunt server
+
+The project itself can be run locally. All files are served on a NodeJS instance
+
+To run the project, open a cmd or terminal and run the following command where your Gruntfile.js is located:
+
+<code>
+grunt serve
+</code>
