@@ -5,7 +5,7 @@
 
 1. (Windows only) Install Git - http://git-scm.com/downloads
 
-    a. Make sure git is also set on your path so you can access it from a command line, or use git bash
+    a. Make sure git is also set on your path so you can access it from a command line, or use git bash.
 
 2. (Optional) install sourcetree - http://sourcetreeapp.com/
 3. Install NodeJs - http://nodejs.org/
@@ -34,7 +34,7 @@ npm install -g npm
 
 ### Update npm (Windows)
 
-Open a cmd and navigate to the installation folder
+Open a cmd and navigate to the installation folder.
 
 <code>
 cd C:\Program Files (x86)\nodejs<br/>
@@ -43,7 +43,7 @@ npm install -g npm
 
 ### Install necessary npm packages globally
 
-To be able to use these tools, we need to install them in the NodeJS global namespace
+To be able to use these tools, we need to install them in the NodeJS global namespace.
 
 Open a cmd or terminal and execute the following command:
 
@@ -53,13 +53,13 @@ Open a cmd or terminal and execute the following command:
 
 ### Clone the git repo
 
-Open up a cmd or use sourcetree to clone the repository
+Open up a cmd or use sourcetree to clone the repository.
 
 <code>git clone https://github.com/DennisJaamann/angularbasics.git</code>
 
 ### Initialize node modules needed by the project
 
-Open up a cmd or terminal and navigate to your project root
+Open up a cmd or terminal and navigate to your project root.
 
 Run following command:
 
@@ -69,7 +69,7 @@ Run following command:
 
 This step is needed due to an error in the template (archetype) used to generate the project.
 
-Open up a cmd or terminal and navigate to your project root
+Open up a cmd or terminal and navigate to your project root.
 
 Run following command:
 
@@ -88,7 +88,11 @@ mkdir bower_components
 
 2. Set the proxy
 
+Open a cmd and set the proxy with the following command:
+
 <code>
+set HTTP_PROXY=http://user:password@proxy.domain.com:port<br/>
+set HTTPS_PROXY=http://user:password@proxy.domain.com:port
 </code>
 
 3. Run bower install to install components
@@ -101,7 +105,7 @@ bower install
 
 ### Start grunt server
 
-The project itself can be run locally. All files are served on a NodeJS instance
+The project itself can be run locally. All files are served on a NodeJS instance.
 
 To run the project, open a cmd or terminal and run the following command where your Gruntfile.js is located:
 
