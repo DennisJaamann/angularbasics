@@ -28,9 +28,27 @@ Update npm (Windows)
 Open a cmd
 <code>npm install -g npm</code>
 
+Install npm packages globally
+-----------------------------
+<code>npm install -g grunt-cli karma-cli bower</code>
+
+Clone the git repo
+------------------
+<code>git clone https://github.com/DennisJaamann/angularbasics.git</code>
+
+Or use sourcetree to clone the repository
+
+Initialize node modules needed by the project
+---------------------------------------------
+Open up a cmd or terminal and navigate to you project root
+
+Run following command:
+<code>npm install</code>
+
 Install missing npm packages
 ----------------------------
-In root of your project run following command:
+Open up a cmd or terminal and navigate to you project root
 
+Run following command:
 <code>npm install imagemin-gifsicle imagemin-jpegtran imagemin-optipng imagemin-pngquant</code>
 
