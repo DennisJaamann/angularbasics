@@ -26,7 +26,11 @@ Open a terminal
 Update npm (Windows)
 --------------------
 Open a cmd
-<code>npm install -g npm</code>
+navigate to the installation folder
+<code>
+cd C:\Program Files (x86)\nodejs
+npm install -g npm
+</code>
 
 Install npm packages globally
 -----------------------------
