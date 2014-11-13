@@ -10,7 +10,7 @@ Prerquisites
 Own your own modules (OSX only)
 -------------------------------
 This step is needed since NodeJS is installed on the super user's account (admin).
-By doing this you will not have to prepend every node or npm comment with the sudo keyphrase.
+By doing this you will not have to prepend every node or npm command with the sudo keyphrase.
 
 Open a terminal
 <code>
@@ -18,10 +18,15 @@ sudo chown -R $USER ~/.npm
 sudo chown -R $USER /usr/local/lib/node_modules
 </code>
 
-Update npm
-----------
-Open a cmd (Windows) or terminal(OSX)
-<code>npm install -g npm@latest</code>
+Update npm (OSX)
+----------------
+Open a terminal
+<code>npm install -g npm</code>
+
+Update npm (Windows)
+--------------------
+Open a cmd
+<code>npm install -g npm</code>
 
 Install missing npm packages
 ----------------------------
