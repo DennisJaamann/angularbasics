@@ -2,39 +2,44 @@
 
 
 ## Prerequisites
-1. Install Git - http://git-scm.com/downloads
-    a. Make sure git is also set on your path so you can access it from a command line
-2. (Optional) install sourcetree - http://sourcetreeapp.com/
-3. Install NodeJs - http://nodejs.org/
-4. Configure NodeJS
+* Install Git - http://git-scm.com/downloads
+    ** Make sure git is also set on your path so you can access it from a command line
+* (Optional) install sourcetree - http://sourcetreeapp.com/
+* Install NodeJs - http://nodejs.org/
+* Configure NodeJS
 
 Own your own modules (OSX only)
 -------------------------------
 This step is needed since NodeJS is installed on the super user's account (admin).
 By doing this you will not have to prepend every node or npm command with the sudo keyphrase.
 
-Open a terminal
+Open a terminal and type the following commands:
+
 <code>
-sudo chown -R $USER ~/.npm
+sudo chown -R $USER ~/.npm<br/>
 sudo chown -R $USER /usr/local/lib/node_modules
 </code>
 
 Update npm (OSX)
 ----------------
-Open a terminal
-<code>npm install -g npm</code>
+Open a terminal and run the following command:
 
+<code>
+npm install -g npm
+</code>
 Update npm (Windows)
 --------------------
-Open a cmd
-navigate to the installation folder
+Open a cmd and navigate to the installation folder
+
 <code>
-cd C:\Program Files (x86)\nodejs
+cd C:\Program Files (x86)\nodejs<br/>
 npm install -g npm
 </code>
 
 Install necessary npm packages globally
 ---------------------------------------
+Open a cmd or terminal and execute the following command:
+
 <code>npm install -g grunt-cli karma-cli bower</code>
 
 ##Checking out the code
@@ -52,6 +57,7 @@ Initialize node modules needed by the project
 Open up a cmd or terminal and navigate to you project root
 
 Run following command:
+
 <code>npm install</code>
 
 Install missing npm packages
