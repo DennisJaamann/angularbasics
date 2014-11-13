@@ -47,7 +47,7 @@ Open a cmd or terminal and execute the following command:
 
 <code>npm install -g grunt-cli karma-cli bower</code>
 
-## Checking out the code
+## Getting started
 
 ### Clone the git repo
 
@@ -55,11 +55,9 @@ Open up a cmd or use sourcetree to clone the repository
 
 <code>git clone https://github.com/DennisJaamann/angularbasics.git</code>
 
-## Getting started
-
 ### Initialize node modules needed by the project
 
-Open up a cmd or terminal and navigate to you project root
+Open up a cmd or terminal and navigate to your project root
 
 Run following command:
 
@@ -69,7 +67,7 @@ Run following command:
 
 This step is needed due to an error in the template (archetype) used to generate the project.
 
-Open up a cmd or terminal and navigate to you project root
+Open up a cmd or terminal and navigate to your project root
 
 Run following command:
 
