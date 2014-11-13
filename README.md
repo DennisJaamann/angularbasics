@@ -13,6 +13,7 @@
 ## Configure NodeJS
 
 ### Own your own modules (OSX only)
+
 This step is needed since NodeJS is installed on the super user's account (admin).
 By doing this you will not have to prepend every node or npm command with the sudo keyphrase.
 
@@ -24,6 +25,7 @@ sudo chown -R $USER /usr/local/lib/node_modules
 </code>
 
 ### Update npm (OSX)
+
 Open a terminal and run the following command:
 
 <code>
@@ -31,6 +33,7 @@ npm install -g npm
 </code>
 
 ### Update npm (Windows)
+
 Open a cmd and navigate to the installation folder
 
 <code>
@@ -39,6 +42,7 @@ npm install -g npm
 </code>
 
 ### Install necessary npm packages globally
+
 Open a cmd or terminal and execute the following command:
 
 <code>npm install -g grunt-cli karma-cli bower</code>
@@ -46,6 +50,7 @@ Open a cmd or terminal and execute the following command:
 ## Checking out the code
 
 ### Clone the git repo
+
 Open up a cmd or use sourcetree to clone the repository
 
 <code>git clone https://github.com/DennisJaamann/angularbasics.git</code>
@@ -53,6 +58,7 @@ Open up a cmd or use sourcetree to clone the repository
 ## Getting started
 
 ### Initialize node modules needed by the project
+
 Open up a cmd or terminal and navigate to you project root
 
 Run following command:
@@ -60,9 +66,11 @@ Run following command:
 <code>npm install</code>
 
 ### Install missing npm packages
+
 This step is needed due to an error in the template (archetype) used to generate the project.
 
 Open up a cmd or terminal and navigate to you project root
 
 Run following command:
+
 <code>npm install imagemin-gifsicle imagemin-jpegtran imagemin-optipng imagemin-pngquant</code>
