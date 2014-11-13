@@ -3,9 +3,9 @@
 
 ## Prerequisites
 
-1. Install Git - http://git-scm.com/downloads
+1. (Windows only) Install Git - http://git-scm.com/downloads
 
-    a. Make sure git is also set on your path so you can access it from a command line
+    a. Make sure git is also set on your path so you can access it from a command line, or use git bash
 
 2. (Optional) install sourcetree - http://sourcetreeapp.com/
 3. Install NodeJs - http://nodejs.org/
@@ -42,6 +42,8 @@ npm install -g npm
 </code>
 
 ### Install necessary npm packages globally
+
+To be able to use these tools, we need to install them in the NodeJS global namespace
 
 Open a cmd or terminal and execute the following command:
 
