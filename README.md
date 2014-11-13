@@ -1,5 +1,8 @@
 # Angular basics workshop
 
+The steps described here will help you setup all tools needed to be able to properly follow this workshop.
+
+It would be better to install these tools in advance to ensure that the time spent during the workshop is well spent.
 
 ## Prerequisites
 
