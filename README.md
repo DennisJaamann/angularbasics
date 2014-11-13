@@ -6,12 +6,20 @@ It would be better to install these tools in advance to ensure that the time spe
 
 ## Prerequisites
 
-1. (Windows only) Install Git - http://git-scm.com/downloads
+### (Windows only) Install Git
 
-    a. Make sure git is also set on your path so you can access it from a command line, or use git bash.
+Download and install git - http://git-scm.com/downloads
 
-2. (Optional) install sourcetree - http://sourcetreeapp.com/
-3. Install NodeJs - http://nodejs.org/
+Make sure git is also set on your path so you can access it from a command line, or use git bash.
+
+### (Optional) install sourcetree
+
+Download and install sourcetree - http://sourcetreeapp.com/
+
+
+### Install NodeJS
+
+Download and install NodeJS http://nodejs.org/
 
 ## Configure NodeJS
 
@@ -83,13 +91,13 @@ Run following command:
 In some environments, typically behind a proxy the bower install step might fail.
 This also fails mostly on windows systems.
 
-1. At the root of your project, create a folder
+#### At the root of your project, create a folder
 
 <code>
 mkdir bower_components
 </code>
 
-2. Set the proxy
+#### Set the proxy
 
 Open a cmd and set the proxy with the following command:
 
@@ -98,7 +106,7 @@ set HTTP_PROXY=http://user:password@proxy.domain.com:port<br/>
 set HTTPS_PROXY=http://user:password@proxy.domain.com:port
 </code>
 
-3. Run bower install to install components
+#### Run bower install to install components
 
 Open a cmd or terminal and type the following command where your bower.json file is located:
 
