@@ -9,7 +9,7 @@
    *
    * Tweets module of the application.
    */
-  angular.module('tweets', []).config(function ($routeProvider) {
+  angular.module('tweets', ['ngRoute']).config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/tweets/tweetsOverview.html',

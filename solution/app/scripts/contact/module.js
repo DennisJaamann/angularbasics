@@ -9,7 +9,7 @@
    *
    * Contact module of the application.
    */
-  angular.module('contact', []).config(function ($routeProvider) {
+  angular.module('contact', ['ngRoute']).config(function ($routeProvider) {
     $routeProvider
       .when('/contact', {
         templateUrl: 'views/contact/contact.html',

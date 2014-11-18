@@ -3,7 +3,6 @@
 describe('Service: TwitterSearchService', function () {
 
   // load the service's module
-  beforeEach(module('solutionApp'));
   beforeEach(module('tweets'));
 
   // instantiate service

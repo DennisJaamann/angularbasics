@@ -3,7 +3,6 @@
 describe('Service: ContactService', function () {
 
   // load the service's module
-  beforeEach(module('solutionApp'));
   beforeEach(module('contact'));
 
   // instantiate service

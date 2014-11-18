@@ -3,7 +3,7 @@
 describe('Controller: AboutController', function () {
 
   // load the controller's module
-  beforeEach(module('solutionApp'));
+  beforeEach(module('about'));
 
   var AboutController,
     scope;
